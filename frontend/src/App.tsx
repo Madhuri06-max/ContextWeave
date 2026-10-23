@@ -20,7 +20,7 @@ import {
 } from 'lucide-react'
 import './App.css'
 
-const API = 'http://127.0.0.1:8000'
+const API = 'https://contextweave-g8ph.onrender.com'
 
 type Page = 'overview' | 'activity' | 'actionguard'
 
