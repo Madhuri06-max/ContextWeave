@@ -12,10 +12,11 @@ app = FastAPI(
     description="A context-aware workflow assistant with approval safeguards.",
 )
 
-# Allow the deployed Vercel frontend and local development
+# Allow GitHub Pages, Vercel, and local development
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://madhuri06-max.github.io",
         "https://context-weave-pi.vercel.app",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
